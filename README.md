@@ -6,7 +6,7 @@ Development Environment Auto-Installer for Chisel and FPGAs
 - RHEL8 : 8.4 ~ 8.7
 - CentOS8 : not tested
 - Rocky : 8.4 ~ 8.7
-- FPGA Developer AMI : not tested
+- AWS FPGA Developer AMI : not tested
 
 # How to Use It
 ```bash
