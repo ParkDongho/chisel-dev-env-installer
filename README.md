@@ -17,6 +17,7 @@ chmod 700 install.sh
 
 | Versions | Chisel | Chipyard | Chisel  | Nvim | AstroNVIM |
 |:--------:|:------:|:--------:|:-------:|:----:|:---------:|
+|   9.x    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
 |   8.x    |  yes   |   yes    |   yes   | yes  |    yes    |
 |   7.x    |  yes   |   yes    |   yes   | yes  |    no     |
 
