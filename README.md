@@ -7,8 +7,8 @@ Development Environment Auto-Installer for Chisel and FPGAs
 
 | Versions | Chisel | Chipyard | Chisel  | Nvim | Metal |
 |:--------:|:------:|:--------:|:-------:|:----:|:-----:|
-|   8.5    |        |          | dsadasd |      |       |
-|   8.6    |        |          |         |      |       |
+|   8.5    |        |          |         |      |       |
+|   8.6    |  yes   |   yes    |   yes   | yes  |  yes  |
 |   8.7    |        |          |         |      |       |
 |   8.8    |        |          |         |      |       |
 |   8.9    |        |          |         |      |       |
