@@ -25,11 +25,11 @@ sudo yum install -y https://kojipkgs.fedoraproject.org//packages/verilator/4.028
 sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 sudo yum install -y neovim python3-neovim
 
-sudo yum install cargo
+sudo yum install -y cargo
 rustup update
 cargo install tree-sitter-cli
 
-sudo dnf install ripgrep
+sudo dnf install ripgrep -y
 
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
@@ -39,11 +39,11 @@ chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 /usr/bin/gdu
 
 sudo dnf copr enable atim/bottom -y
-sudo dnf install bottom
+sudo dnf install bottom -y
 
-sudo dnf groupinstall "Development Tools"
-sudo dnf module list nodejs
-sudo dnf module install nodejs/development
+sudo dnf groupinstall "Development Tools" -y
+sudo dnf module list nodejs -y
+sudo dnf module install nodejs/development -y
 
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
