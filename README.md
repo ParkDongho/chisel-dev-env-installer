@@ -3,7 +3,7 @@ dev-env-auto-install
 Development Environment Auto-Installer for Chisel and FPGAs
 
 # Supported Operating Systems
-## RHEL
+## RHEL or CentOS
 
 | Versions | Chisel | Chipyard | Chisel  | Nvim | Metal |
 |:--------:|:------:|:--------:|:-------:|:----:|:-----:|
