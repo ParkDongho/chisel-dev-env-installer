@@ -19,7 +19,7 @@ chmod 700 install.sh
 |:--------:|:------:|:--------:|:-------:|:----:|:---------:|
 |   9.x    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
 |   8.x    |  yes   |   yes    |   yes   | yes  |    yes    |
-|   7.x    |  yes   |   yes    |   yes   | yes  |    no     |
+|   7.x    | not tested   |   not tested    |   not tested   | not tested  |    no     |
 
 
 ## Ubuntu
