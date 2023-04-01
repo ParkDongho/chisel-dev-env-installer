@@ -49,7 +49,7 @@ cd dev
 git clone https://github.com/ucb-bar/chipyard.git
 cd chipyard
 git checkout 1.9.0
-./build-setup.sh
+./build-setup.sh riscv-tools
 
 # verilator
 sudo yum install -y https://kojipkgs.fedoraproject.org//packages/verilator/4.028/1.el8/x86_64/verilator-4.028-1.el8.x86_64.rpm
