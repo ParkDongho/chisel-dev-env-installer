@@ -16,7 +16,7 @@ sudo -y yum install net-tools vim make openssh-server \
   zsh firewalld gcc wget yum-utils openssl-devel bzip2-devel \
   libffi-devel zlib-devel ncurses-compat-libs sqlite-devel \
   tigervnc-server git perl python3 make autoconf flex \
-  bison numactl
+  bison numactl wget
 sudo -y yum groupinstall "Development Tools"
 
 # Scala ################
@@ -37,13 +37,19 @@ rm cs
 # Chipyard(v1.9.0) #######
 #
 # Conda
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+conda config --set auto_activate_base false
+conda install -n base conda-lock
+conda activate base
+
 
 # Chipyard
 cd dev
 git clone https://github.com/ucb-bar/chipyard.git
 cd chipyard
 git checkout 1.9.0
-./build-setup.sh riscv-tools
+./build-setup.sh
 
 # verilator
 sudo yum install -y https://kojipkgs.fedoraproject.org//packages/verilator/4.028/1.el8/x86_64/verilator-4.028-1.el8.x86_64.rpm
