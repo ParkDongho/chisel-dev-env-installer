@@ -24,4 +24,8 @@ chmod 700 install.sh
 > Xilinx FPGA Developer AMI : CentOS 7.x
 
 ## Ubuntu
-
+| Versions | Chisel | Chipyard | Chisel  | Nvim | AstroNVIM |
+|:--------:|:------:|:--------:|:-------:|:----:|:---------:|
+|   22.xx    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
+|   20.xx    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
+|   18.xx    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
