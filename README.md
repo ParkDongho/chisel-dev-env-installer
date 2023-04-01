@@ -3,15 +3,15 @@ dev-env-auto-install
 Development Environment Auto-Installer for Chisel and FPGAs
 
 # Supported Operating Systems
-## RHEL / CentOS / RockyLinux
+## RHEL
 
-| Versions | Verilator | Chisel | Chisel  | Nvim |
-|:--------:|:---------:|:------:|:-------:|:----:|
-|   8.5    |           |        | dsadasd |      |
-|   8.6    |           |        |         |      |
-|   8.7    |           |        |         |      |
-|   8.8    |           |        |         |      |
-|   8.9    |           |        |         |      |
+| Versions | Chisel | Chipyard | Chisel  | Nvim | Metal |
+|:--------:|:------:|:--------:|:-------:|:----:|:-----:|
+|   8.5    |        |          | dsadasd |      |       |
+|   8.6    |        |          |         |      |       |
+|   8.7    |        |          |         |      |       |
+|   8.8    |        |          |         |      |       |
+|   8.9    |        |          |         |      |       |
 
 ## Ubuntu
 
