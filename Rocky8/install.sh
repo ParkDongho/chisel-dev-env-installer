@@ -1,5 +1,17 @@
 #!/bin/sh
 
+# Make Directories ######
+#
+cd ~ 
+mkdir dev 
+mkdir Downloads
+mkdir Documents
+
+# Update Packages #######
+#
+
+sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+
 sudo -y yum install net-tools vim make openssh-server \
   zsh firewalld gcc wget yum-utils openssl-devel bzip2-devel \
   libffi-devel zlib-devel ncurses-compat-libs sqlite-devel \
@@ -7,6 +19,8 @@ sudo -y yum install net-tools vim make openssh-server \
   bison numactl
 sudo -y yum groupinstall "Development Tools"
 
+# Scala ################
+#
 sudo yum install java-11-openjdk-devel.x86_64
 sudo update-alternatives --config java
 
@@ -20,9 +34,22 @@ chmod +x cs
 ./cs setup
 rm cs
 
+# Chipyard(v1.9.0) #######
+#
+# Conda
+
+# Chipyard
+cd dev
+git clone https://github.com/ucb-bar/chipyard.git
+cd chipyard
+git checkout 1.9.0
+./build-setup.sh riscv-tools
+
+# verilator
 sudo yum install -y https://kojipkgs.fedoraproject.org//packages/verilator/4.028/1.el8/x86_64/verilator-4.028-1.el8.x86_64.rpm
 
-sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+# ASTRONVIM ################
+#
 sudo yum install -y neovim python3-neovim
 
 sudo yum install -y cargo
@@ -54,3 +81,6 @@ git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 git clone https://github.com/ParkDongho/astronvim_config ~/.config/nvim/lua/user
 
 nvim
+
+
+
