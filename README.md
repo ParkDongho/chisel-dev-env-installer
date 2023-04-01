@@ -1,4 +1,7 @@
-# Development Environment Auto-Installer for Chisel and FPGAs
+dev-env-auto-install
+===
+Development Environment Auto-Installer for Chisel and FPGAs
+
 # Supported Operating Systems
 - RHEL8 : 8.4 ~ 8.7
 - CentOS8 : 8.4 ~ 8.7
