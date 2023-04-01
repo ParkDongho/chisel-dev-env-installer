@@ -15,13 +15,11 @@ chmod 700 install.sh
 # Supported Operating Systems
 ## RHEL or CentOS
 
-| Versions | Chisel | Chipyard | Chisel  | Nvim | Metal |
-|:--------:|:------:|:--------:|:-------:|:----:|:-----:|
-|   8.5    |        |          |         |      |       |
-|   8.6    |  yes   |   yes    |   yes   | yes  |  yes  |
-|   8.7    |        |          |         |      |       |
-|   8.8    |        |          |         |      |       |
-|   8.9    |        |          |         |      |       |
+| Versions | Chisel | Chipyard | Chisel  | Nvim | AstroNVIM |
+|:--------:|:------:|:--------:|:-------:|:----:|:---------:|
+|   8.x    |  yes   |   yes    |   yes   | yes  |    yes    |
+|   7.x    |  yes   |   yes    |   yes   | yes  |    no     |
+
 
 ## Ubuntu
 
