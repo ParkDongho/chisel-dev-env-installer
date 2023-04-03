@@ -22,7 +22,7 @@ chmod 700 install.sh
 | 7.x        | [3.6.0-RC2](https://github.com/chipsalliance/chisel/releases/tag/v3.6.0-RC2)    | [1.9.0](https://github.com/ucb-bar/chipyard/releases/tag/1.9.0)       | not tested   | yes          | no           |            |
 
 > **Note**
-> Xilinx FPGA Developer AMI : CentOS 7.x
+> Xilinx [FPGA Developer AMI](https://aws.amazon.com/marketplace/pp/prodview-gimv3gqbpe57k) : CentOS 7.x
 
 ## Ubuntu
 | Versions |   Chisel   |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
