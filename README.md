@@ -15,7 +15,7 @@ chmod 700 install.sh
 # Supported Operating Systems
 ## RHEL or CentOS
 
-| Versions | Chisel | Chipyard | Chisel  | Nvim | AstroNVIM |
+| Versions | Chisel | Chipyard | FireSim  | Nvim | AstroNVIM |
 |:--------:|:------:|:--------:|:-------:|:----:|:---------:|
 |   9.x    |  not tested   |   not tested    |   not tested   | not tested  |    not tested     |
 |   8.x    |  yes   |   yes    |   yes   | yes  |    yes    |
