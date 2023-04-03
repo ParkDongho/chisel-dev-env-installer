@@ -21,6 +21,7 @@ chmod 700 install.sh
 |   8.x    |  yes   |   yes    |   yes   | yes  |    yes    |
 |   7.x    | not tested   |   not tested    |   not tested   | not tested  |    no     |
 
+> **Note**
 > Xilinx FPGA Developer AMI : CentOS 7.x
 
 ## Ubuntu
