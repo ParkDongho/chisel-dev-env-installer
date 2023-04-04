@@ -10,6 +10,9 @@ ssh:
 xrdp: 
 	./code/default/xrdp.sh
 
+ohmyzsh:
+	./code/ohmyzsh/ohmyzsh-rhel-8-latest.sh
+
 
 ###################
 Chisel: java coursier sbt diagrammer verilator
