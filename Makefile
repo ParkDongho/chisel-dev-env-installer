@@ -12,7 +12,7 @@ xrdp:
 
 
 ###################
-Chisel: java coursier sbt
+Chisel: java coursier sbt diagrammer
 
 java:
 	./code/java/java11-rhel-8-latest.sh
@@ -22,6 +22,9 @@ coursier:
 
 sbt:
 	./code/sbt/sbt-rhel-8-latest.sh
+
+diagrammer:
+	./code/diagrammer/rhel-8-latest.sh
 
 
 ####################
@@ -46,4 +49,5 @@ conda:
 
 chipyard:
 	./code/chipyard/chipyard-rhel-8-latest.sh
+
 
