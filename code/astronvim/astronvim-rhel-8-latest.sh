@@ -1,6 +1,6 @@
 # ASTRONVIM Prerequisite
 # Tree sitter cli
-sudo yum install cargo
+sudo yum -y install cargo
 rustup update
 cargo install tree-sitter-cli
 
