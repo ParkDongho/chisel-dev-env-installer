@@ -5,11 +5,11 @@ sudo yum -y install cargo
 cargo install tree-sitter-cli
 
 # ripgrep
-sudo dnf install ripgrep
+sudo dnf -y install ripgrep
 
 # lazygit
 sudo dnf copr enable atim/lazygit -y
-sudo dnf install lazygit
+sudo dnf -y install lazygit
 
 # go DiskUsage()
 curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
@@ -18,7 +18,7 @@ mv gdu_linux_amd64 /usr/bin/gdu
 
 # bottom
 sudo dnf copr enable atim/bottom  -y
-sudo dnf install bottom -y
+sudo dnf -y install bottom
 
 # nodejs
 sudo dnf groupinstall "Development Tools" -y
