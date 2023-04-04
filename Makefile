@@ -27,7 +27,7 @@ sbt:
 	./code/sbt/sbt-rhel-8-latest.sh
 
 diagrammer:
-	./code/diagrammer/rhel-8-latest.sh
+	./code/diagrammer/diagrammer-rhel-8-latest.sh
 
 verilator:
 	./code/verilator/verilator-rhel-8-latest.sh
