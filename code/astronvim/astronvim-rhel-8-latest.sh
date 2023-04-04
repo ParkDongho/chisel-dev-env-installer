@@ -17,13 +17,13 @@ chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 /usr/bin/gdu
 
 # bottom
-sudo dnf copr enable atim/bottom -y
-sudo dnf install bottom
+sudo dnf copr enable atim/bottom  -y
+sudo dnf install bottom -y
 
 # nodejs
-sudo dnf groupinstall "Development Tools"
-sudo dnf module list nodejs
-sudo dnf module install nodejs/development
+sudo dnf groupinstall "Development Tools" -y
+sudo dnf module list nodejs -y
+sudo dnf module install nodejs/development -y
 
 
 # ASTRONVIM
