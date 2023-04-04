@@ -14,11 +14,11 @@ make all
 # Supported Operating Systems
 ## RHEL / CentOS / Rocky
 
-| Versions   |     Chisel     | Chipyard     | FireSim      | Nvim         | AstroNVIM    |
-| :--------: |:--------------:| :--------------: | :--------------: | :--------------: | :--------------: |
-| 9.x        |                |              |              |              |              |
-| 8.x        |       ✅         |              |              |     ✅         |       ✅       |
-| 7.x        |                |              |              |              |     ❌     |
+| Versions |   Chisel   |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
+|:--------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+|   9.x    | not tested | not tested | not tested | not tested | not tested |
+|   8.x    |     ✅      |     ✅     | not tested |     ✅     |     ✅     |
+|   7.x    |     ✅      |     ✅     | not tested |     ✅     |     ❌     |
 
 
 
