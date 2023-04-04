@@ -1,4 +1,4 @@
-all: default ssh xrdp Chisel IDE
+all: default Chisel IDE
 
 ###################
 default:
