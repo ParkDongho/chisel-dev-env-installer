@@ -1,6 +1,6 @@
 dev-env-auto-install
 ===
-Development Environment Auto-Installer for Chisel and FPGAs
+Development Environment Auto-Installer for Chisel and Chipyard
 
 # How to Use It
 ```bash
