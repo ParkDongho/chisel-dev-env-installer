@@ -6,6 +6,7 @@ Development Environment Auto-Installer for Chisel and FPGAs
 ```bash
 sudo yum install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
+cd dev-env-auto-install
 make all
 ```
 
