@@ -4,11 +4,9 @@ Development Environment Auto-Installer for Chisel and FPGAs
 
 # How to Use It
 ```bash
-sudo yum install git
+sudo yum install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
-cd dev-env-auto-install/<os-type>/<os-version>
-chmod 700 install.sh
-./install.sh
+make all
 ```
 
 
