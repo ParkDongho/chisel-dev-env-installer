@@ -12,7 +12,7 @@ xrdp:
 
 
 ###################
-Chisel: java coursier sbt diagrammer
+Chisel: java coursier sbt diagrammer verilator
 
 java:
 	./code/java/java11-rhel-8-latest.sh
@@ -26,6 +26,8 @@ sbt:
 diagrammer:
 	./code/diagrammer/rhel-8-latest.sh
 
+verilator:
+	./code/verilator/verilator-rhel-8-latest.sh
 
 ####################
 IDE: nvim astronvim
@@ -39,10 +41,7 @@ astronvim:
 
 
 ####################
-Chipyard: verilator conda chipyard
-
-verilator:
-	./code/verilator/verilator-rhel-8-latest.sh
+Chipyard: conda chipyard
 
 conda:
 	./code/conda/conda-rhel-8-latest.sh
