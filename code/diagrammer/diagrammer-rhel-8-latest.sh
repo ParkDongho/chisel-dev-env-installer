@@ -1,4 +1,4 @@
-sudo yum install graphviz
+sudo yum -y install graphviz
 cd ~
 mkdir .diagrammer
 cd .diagrammer
