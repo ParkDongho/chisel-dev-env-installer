@@ -24,7 +24,7 @@ make all
 
 
 > **Note**
-> Xilinx [FPGA Developer AMI](https://aws.amazon.com/marketplace/pp/prodview-gimv3gqbpe57k) : CentOS 7.x
+> Xilinx [FPGA Developer AMI](https://aws.amazon.com/marketplace/pp/prodview-gimv3gqbpe57k) : CentOS 7.5
 
 ## Ubuntu
 | Versions |   Chisel   |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
