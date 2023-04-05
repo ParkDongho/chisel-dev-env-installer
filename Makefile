@@ -1,4 +1,4 @@
-all: default Chisel IDE
+all: default Chisel conda IDE
 
 ###################
 default:
