@@ -1,5 +1,5 @@
 # Chipyard
-mkdir dev && cd dev
+mkdir ~/dev && cd ~/dev
 git clone https://github.com/ucb-bar/chipyard.git
 cd chipyard
 git checkout 1.9.0
