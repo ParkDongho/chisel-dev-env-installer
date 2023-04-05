@@ -128,9 +128,10 @@ source /tools/Xilinx/Vivado/2022.2/settings64.sh
 # Coursier
 # alias cs="~/.local/bin/cs"
 
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64:$JAVA_HOME"
-export PATH=$PATH:$JAVA_HOME/bin
-export CLASSPATH="."
+# Java
+# export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-2.el8_7.x86_64:$JAVA_HOME"
+# export PATH=$PATH:$JAVA_HOME/bin
+# export CLASSPATH="."
 
 #latex
 # export MANPATH="/usr/local/texlive/2022/texmf-dist/doc/man$MANPATH"
