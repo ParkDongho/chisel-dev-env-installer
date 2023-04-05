@@ -12,11 +12,19 @@ make all
 ```
 
 ## RHEL from AWS
-```
+```bash
 sudo yum -y install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
 cd dev-env-auto-install
 make gui all
+```
+
+## Xilinx FPGA Developer AMI
+```bash
+sudo yum -y install git make
+git clone https://github.com/ParkDongho/dev-env-auto-install
+cd dev-env-auto-install
+make gui all chipyard
 ```
 
 
