@@ -3,6 +3,7 @@ dev-env-auto-install
 Development Environment Auto-Installer for Chisel and Chipyard
 
 # How to Use It
+## RHEL 
 ```bash
 sudo yum -y install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
