@@ -1,9 +1,8 @@
 #!/bin/bash
 set -e
 
-USERNAME = $(USER)
 CENTOS_HOME=/home/
-CENTOS_HOME+=$(USERNAME)
+CENTOS_HOME+=$USER
 
 CENTOS_PWD=temp_pwd_
 CENTOS_PWD+=$((RANDOM%1000))
@@ -11,8 +10,8 @@ CENTOS_PWD+=$((RANDOM%1000))
 pushd $CENTOS_HOME
 
 function setup_password {
-    info_msg "Setting password for user '$USERNAME'"
-    echo "$USERNAME:$CENTOS_PWD" | sudo chpasswd
+    info_msg "Setting password for user '$USER'"
+    echo "$USER:$CENTOS_PWD" | sudo chpasswd
 
     info_msg "**************************************"
     info_msg "*** PASSWORD : ${CENTOS_PWD}   ****"
@@ -38,11 +37,11 @@ function setup_gui {
     sudo yum -y install -y xorgxrdp
     sudo yum install -y xrdp tigervnc-server
 
-    cat > /home/$(USERNAME)/.Xclients << EOL
+    cat > /home/$USER/.Xclients << EOL
 #!/bin/bash
 exec mate-session
 EOL
-    chmod +x /home/$(USERNAME)/.Xclients
+    chmod +x /home/$USER/.Xclients
 
     sudo systemctl start xrdp
     sudo systemctl enable xrdp
