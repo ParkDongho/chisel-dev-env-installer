@@ -10,8 +10,11 @@ ssh:
 xrdp: 
 	./code/default/xrdp.sh
 
-ohmyzsh:
+zsh:
 	./code/ohmyzsh/ohmyzsh-rhel-8-latest.sh
+
+gui:
+	./code/gui/gui-rhel-8.sh
 
 
 ###################
