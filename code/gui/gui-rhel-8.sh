@@ -1,3 +1,6 @@
+sudo yum update grub2 -y
+sudo yum -y install epel-release
+    
 # install GUI
 sudo yum -y group list
 sudo yum -y groupinstall "Server with GUI"
