@@ -11,7 +11,7 @@ cd dev-env-auto-install
 make all
 ```
 
-## RHEL with AWS
+## RHEL from AWS
 ```
 sudo yum -y install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
