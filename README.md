@@ -13,7 +13,7 @@ make all
 
 
 # Supported Operating Systems
-## RHEL / CentOS / Rocky
+## RHEL
 
 | Versions |   Chisel   |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
 |:--------:|:----------:|:----------:|:----------:|:----------:|:----------:|
