@@ -22,3 +22,5 @@ chcon --type=bin_t /usr/sbin/xrdp-sesman
 sudo firewall-cmd --permanent --add-port=3389/tcp
 sudo firewall-cmd --reload
 
+sudo systemctl start xrdp
+sudo systemctl enable xrdp
