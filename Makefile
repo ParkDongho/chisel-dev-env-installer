@@ -47,8 +47,6 @@ astronvim:
 
 
 ####################
-Chipyard: conda chipyard
-
 conda:
 	./code/conda/conda-rhel-8-latest.sh
 
