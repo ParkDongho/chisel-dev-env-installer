@@ -1,7 +1,9 @@
 # Chipyard
-mkdir ~/dev && cd ~/dev
+cd
+mkdir dev 
+cd ~/dev
 git clone https://github.com/ucb-bar/chipyard.git
-cd chipyard
+cd ~/dev/chipyard
 git checkout 1.9.0
 ./build-setup.sh riscv-tools
 
