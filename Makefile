@@ -1,4 +1,4 @@
-all: default Chisel conda IDE
+all: default Chisel IDE conda chipyard
 
 ###################
 default:
