@@ -1,5 +1,5 @@
 sudo yum -y install graphviz
 cd ~
-mkdir .diagrammer
+mkdir -f .diagrammer
 cd .diagrammer
 git clone https://github.com/freechipsproject/diagrammer
