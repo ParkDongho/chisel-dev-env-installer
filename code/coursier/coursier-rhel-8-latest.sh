@@ -1,3 +1,4 @@
+#!/bin/sh
 mkdir tmp && cd tmp && \
 sudo rm -f /etc/yum.repos.d/bintray-rpm.repo || true && \
 curl -L https://www.scala-sbt.org/sbt-rpm.repo > sbt-rpm.repo && \
