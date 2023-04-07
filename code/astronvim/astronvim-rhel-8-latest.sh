@@ -1,3 +1,4 @@
+#!/bin/sh
 # ASTRONVIM Prerequisite
 # Tree sitter cli
 sudo yum -y install cargo
