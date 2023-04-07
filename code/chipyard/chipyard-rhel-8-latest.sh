@@ -9,7 +9,8 @@ conda install -n base conda-lock
 conda activate base
 
 # Chipyard
-mkdir ~/dev && cd ~/dev
+mkdir ~/dev 
+cd ~/dev
 git clone https://github.com/ucb-bar/chipyard.git
 cd ~/dev/chipyard
 git checkout 1.9.0
