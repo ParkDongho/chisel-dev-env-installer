@@ -8,10 +8,14 @@ echo "============================"
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
 rm Mambaforge-Linux-x86_64.sh
-echo "Install Complete : Conda"
 
 conda config --set auto_activate_base false
-echo "Setup : Config"
+
+# libmamba
+conda update -n base conda
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
+
 
 echo "============================"
 echo "Exit : conda-rhel-8-latest.sh"
