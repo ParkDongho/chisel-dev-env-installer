@@ -9,7 +9,6 @@ wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambafor
 bash Mambaforge-$(uname)-$(uname -m).sh
 echo "Install Complete : Conda"
 
-source ~/.zshrc
 echo "Sourcing : .zshrc"
 
 conda config --set auto_activate_base false
