@@ -1,4 +1,8 @@
 #!/bin/sh
+echo "================================"
+echo "RUN : astronvim-rhel-8-latest.sh"
+echo "================================"
+
 # ASTRONVIM Prerequisite
 # Tree sitter cli
 sudo yum -y install cargo
@@ -37,3 +41,7 @@ git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 git clone https://github.com/ParkDongho/astronvim_config ~/.config/nvim/lua/user
 
 nvim
+
+echo "================================="
+echo "EXIT : astronvim-rhel-8-latest.sh"
+echo "================================="
