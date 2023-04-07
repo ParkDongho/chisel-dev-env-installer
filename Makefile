@@ -11,7 +11,7 @@ xrdp:
 	./code/default/xrdp.sh
 
 zsh:
-	./code/zsh/zsh-rhel-8-latest.sh
+	./code/ohmyzsh/zsh-rhel-8-latest.sh
 
 gui:
 	./code/gui/gui-rhel-8.sh
