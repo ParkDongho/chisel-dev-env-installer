@@ -10,8 +10,6 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 rm Mambaforge-Linux-x86_64.sh
 echo "Install Complete : Conda"
 
-echo "Sourcing : .zshrc"
-
 conda config --set auto_activate_base false
 echo "Setup : Config"
 
