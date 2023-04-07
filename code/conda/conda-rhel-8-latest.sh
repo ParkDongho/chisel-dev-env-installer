@@ -6,5 +6,3 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 source ~/.zshrc
 
 conda config --set auto_activate_base false
-conda install -n base conda-lock
-conda activate base
