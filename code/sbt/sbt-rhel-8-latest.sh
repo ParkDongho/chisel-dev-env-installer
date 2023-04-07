@@ -1,7 +1,17 @@
+#!/bin/sh
+echo "=========================="
+echo "RUN : sbt-rhel-8-latest.sh"
+echo "=========================="
+
 
 # Install sbt with cs setup
 cs setup
 sbt --script-version
+
+echo "==========================="
+echo "EXIT : sbt-rhel-8-latest.sh"
+echo "==========================="
+
 
 
 # sudo rm -f /etc/yum.repos.d/bintray-rpm.repo || true
