@@ -10,7 +10,7 @@ conda activate base
 
 # Chipyard
 mkdir ~/dev 
-git clone https://github.com/ucb-bar/chipyard.git ~/dev
+git clone https://github.com/ucb-bar/chipyard.git ~/dev/chipyard
 cd ~/dev/chipyard
 git checkout 1.9.0
 ./build-setup.sh riscv-tools
