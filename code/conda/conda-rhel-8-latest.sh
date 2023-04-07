@@ -7,6 +7,7 @@ echo "============================"
 # Conda
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
+rm Mambaforge-Linux-x86_64.sh
 echo "Install Complete : Conda"
 
 echo "Sourcing : .zshrc"
