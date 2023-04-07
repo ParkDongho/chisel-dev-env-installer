@@ -1,7 +1,5 @@
 #!/bin/sh
-mkdir tmp && cd tmp && \
-sudo rm -f /etc/yum.repos.d/bintray-rpm.repo || true && \
-curl -L https://www.scala-sbt.org/sbt-rpm.repo > sbt-rpm.repo && \
-sudo mv sbt-rpm.repo /etc/yum.repos.d/ && \
-sudo yum install sbt &&\
-cd .. && rm -rf tmp
+curl -fL "https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz" | gzip -d > cs
+chmod +x cs
+./cs setup
+rm cs
