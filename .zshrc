@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # USER SETUP               #
 ############################
 
-# Cargo
+# RustUP
 source $HOME/.cargo/bin
 
 # Xilinx Tools
