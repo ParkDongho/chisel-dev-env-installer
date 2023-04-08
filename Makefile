@@ -24,9 +24,9 @@ gui:
 
 
 ###################
-chisel: java coursier sbt diagrammer verilator
+chisel: coursier sbt diagrammer verilator
 
-java:
+java11:
 	./code/java/java11-rhel-8-latest.sh
 
 coursier:
