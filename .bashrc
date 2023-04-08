@@ -15,7 +15,14 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
-# User specific aliases and functions
+#######################################
+# User specific aliases and functions #
+#######################################
+
+# RustUP
+# source $HOME/.cargo/bin
+. "$HOME/.cargo/env"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -36,4 +43,4 @@ if [ -f "/home/parkdongho/mambaforge/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
-. "$HOME/.cargo/env"
+
