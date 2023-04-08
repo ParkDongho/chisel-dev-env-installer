@@ -18,8 +18,11 @@ ssh: ## ssh
 xrdp: 
 	./code/default/xrdp.sh
 
+bash:
+	./code/shell/bash-rhel-8-latest.sh
+
 zsh:
-	./code/ohmyzsh/zsh-rhel-8-latest.sh
+	./code/shell/zsh-rhel-8-latest.sh
 
 gui:
 	./code/gui/gui-rhel-8.sh
