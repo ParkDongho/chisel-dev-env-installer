@@ -12,14 +12,6 @@ wget https://github.com/conda-forge/miniforge/releases/download/4.12.0-2/Mambafo
 bash Mambaforge-Linux-x86_64.sh
 rm Mambaforge-Linux-x86_64.sh
 
-conda config --set auto_activate_base false
-
-# libmamba
-conda update -n base conda
-conda install -n base conda-libmamba-solver
-conda config --set solver libmamba
-
-
 echo "============================"
 echo "Exit : conda-rhel-8-latest.sh"
 echo "============================"
