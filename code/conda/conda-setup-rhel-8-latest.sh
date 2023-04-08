@@ -4,6 +4,8 @@ echo "=================================="
 echo "RUN : conda-setup-rhel-8-latest.sh"
 echo "=================================="
 
+source ~/.bashrc
+
 conda config --set auto_activate_base false
 
 # libmamba
