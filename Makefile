@@ -1,10 +1,16 @@
-all: default Chisel IDE conda chipyard
+help:
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+
+all: default Chisel IDE conda chipyard ## 전체 설치
+
+rocky-onpremise: default ssh xrdp conda chipyard
 
 ###################
-default:
+default: ## 전체 설치
 	./code/default/default-rhel-8.sh
 
-ssh:
+ssh: ## ssh
 	./code/default/ssh.sh
 	
 xrdp: 
@@ -47,8 +53,13 @@ astronvim:
 
 
 ####################
-conda:
+conda: conda-install conda-setup
+
+conda-install:
 	./code/conda/conda-rhel-8-latest.sh
+
+conda-setup:
+	./code/conda/conda-setup-rhel-8-latest.sh
 
 chipyard:
 	./code/chipyard/chipyard-rhel-8-latest.sh
