@@ -3,6 +3,8 @@ echo "==============================="
 echo "RUN : chipyard-rhel-8-latest.sh"
 echo "==============================="
 
+source ~/.bashrc
+
 # Conda
 conda activate base
 conda install -n base conda-lock
