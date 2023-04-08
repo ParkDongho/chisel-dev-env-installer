@@ -6,6 +6,8 @@ all: default chipyard ide conda chipyard ## 전체 설치
 
 rocky-onpremise: default ssh xrdp conda chipyard chisel ide
 
+rocky-aws: default conda chipyard chisel ide
+
 ###################
 default: ## 전체 설치
 	./code/default/default-rhel-8.sh
