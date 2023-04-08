@@ -3,6 +3,8 @@ echo "================================"
 echo "RUN : astronvim-rhel-8-latest.sh"
 echo "================================"
 
+source "$HOME/.cargo/env"
+
 # ASTRONVIM Prerequisite
 # Tree sitter cli
 sudo yum -y install cargo
