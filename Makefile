@@ -4,7 +4,7 @@ help:
 
 all: default Chisel IDE conda chipyard ## 전체 설치
 
-rocky-onpremise: default ssh xrdp conda chipyard
+rocky-onpremise: default ssh xrdp conda chipyard chisel ide
 
 ###################
 default: ## 전체 설치
@@ -24,7 +24,7 @@ gui:
 
 
 ###################
-Chisel: java coursier sbt diagrammer verilator
+chisel: java coursier sbt diagrammer verilator
 
 java:
 	./code/java/java11-rhel-8-latest.sh
@@ -42,7 +42,7 @@ verilator:
 	./code/verilator/verilator-rhel-8-latest.sh
 
 ####################
-IDE: nvim astronvim
+ide: nvim astronvim
 
 # NVIM
 nvim: 
