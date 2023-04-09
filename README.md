@@ -1,6 +1,6 @@
-dev-env-auto-install
+chisel-dev-env-installer
 ===
-Development Environment Auto-Installer for Chisel and Chipyard
+Development Environment Installer for Chisel and Chipyard
 
 # How to Use
 ## RHEL 
