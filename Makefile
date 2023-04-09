@@ -54,7 +54,7 @@ conda-install:
 conda-setup:
 	./code/conda/conda-setup-rhel-8-latest.sh
 
-chipyard:
+chipyard: verilator
 	./code/chipyard/chipyard-rhel-8-latest.sh
 	
 	
