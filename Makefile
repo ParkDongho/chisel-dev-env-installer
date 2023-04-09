@@ -38,11 +38,13 @@ ide: nvim astronvim
 nvim: 
 	./code/nvim/nvim-rhel-8-latest.sh
 
+rust:
+	./code/rust/rust-rhel-8-latest.sh
+
 astronvim: nvim rust
 	./code/astronvim/astronvim-rhel-8-latest.sh
 	
-rust:
-	./code/rust/rust-rhel-8-latest.sh
+
 
 
 ####################
