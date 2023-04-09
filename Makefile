@@ -7,7 +7,7 @@ rocky-onpremise: default ssh xrdp chisel chipyard astronvim
 rocky-aws:       default          chisel chipyard astronvim
 
 ###################
-default: ## 기본 패키지 설치
+default: ## Install the default packages
 	./code/default/default-rhel-8.sh
 
 
