@@ -8,7 +8,7 @@ Development Environment Auto-Installer for Chisel and Chipyard
 sudo yum -y install git make
 git clone https://github.com/ParkDongho/dev-env-auto-install
 cd dev-env-auto-install
-make all
+make rhel-onpremise
 ```
 
 
