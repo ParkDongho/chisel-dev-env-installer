@@ -8,7 +8,7 @@ Development Environment Installer for Chisel and Chipyard
 sudo yum -y install git make
 git clone https://github.com/ParkDongho/chisel-dev-env-installer
 cd chisel-dev-env-installer
-make rhel-onpremise
+make rhel-8
 ```
 
 
