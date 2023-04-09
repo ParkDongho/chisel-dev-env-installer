@@ -33,29 +33,27 @@ verilator:
 	./code/verilator/verilator-rhel-8-latest.sh
 
 ####################
-ide: nvim astronvim
 
-# NVIM
-nvim: 
+nvim: ## Install neovim
 	./code/nvim/nvim-rhel-8-latest.sh
 
-rust:
+rust: ## Install rust
 	./code/rust/rust-rhel-8-latest.sh
 
-astronvim: nvim rust
+astronvim: nvim rust ## Install AstroNvim
 	./code/astronvim/astronvim-rhel-8-latest.sh
 	
 
 
 
 ####################
-conda-install:
+conda-install: ## Install conda
 	./code/conda/conda-rhel-8-latest.sh
 
-conda-setup: conda-install
+conda-setup: conda-install ## Setup conda
 	./code/conda/conda-setup-rhel-8-latest.sh
 
-chipyard: conda-install conda-setup verilator
+chipyard: conda-install conda-setup verilator ## Install Chipyard
 	./code/chipyard/chipyard-rhel-8-latest.sh
 	
 	
