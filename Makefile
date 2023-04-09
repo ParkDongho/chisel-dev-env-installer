@@ -12,21 +12,6 @@ rocky-aws:       default          conda chipyard coursier
 default: ## 전체 설치
 	./code/default/default-rhel-8.sh
 
-ssh: ## ssh
-	./code/default/ssh.sh
-	
-xrdp: 
-	./code/default/xrdp.sh
-
-bash:
-	./code/shell/bash-rhel-8-latest.sh
-
-zsh:
-	./code/shell/zsh-rhel-8-latest.sh
-
-gui:
-	./code/gui/gui-rhel-8.sh
-
 
 ###################
 chisel: sbt diagrammer verilator
@@ -71,5 +56,24 @@ conda-setup:
 
 chipyard:
 	./code/chipyard/chipyard-rhel-8-latest.sh
+	
+	
+###################
+
+gui:  ## Install the GUI on a CLI-only system
+	./code/gui/gui-rhel-8.sh
+
+ssh:  ## Install and enable the SSH service
+	./code/default/ssh.sh
+	
+xrdp: ## Install and enable the xrdp service
+	./code/default/xrdp.sh
+
+bash: ## Select the desired shell (bash, zsh)
+	./code/shell/bash-rhel-8-latest.sh
+
+zsh:  ## Select the desired shell (bash, zsh)
+	./code/shell/zsh-rhel-8-latest.sh
+
 
 
