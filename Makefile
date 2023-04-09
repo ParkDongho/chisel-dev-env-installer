@@ -6,6 +6,9 @@ rhel-onpremise: default ssh xrdp chisel chipyard astronvim
 
 rhel-aws:       default          chisel chipyard astronvim
 
+aws-fpga-ami:
+	echo "not supported yet"
+
 ###################
 default: ## Install the default packages
 	./code/default/default-rhel-8.sh
