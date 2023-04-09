@@ -4,9 +4,9 @@ help:
 
 all: default chipyard ide conda chipyard ## 전체 설치
 
-rocky-onpremise: default ssh xrdp chipyard chisel astronvim
+rocky-onpremise: default ssh xrdp chisel chipyard astronvim
 
-rocky-aws:       default          chipyard chisel astronvim
+rocky-aws:       default          chisel chipyard astronvim
 
 ###################
 default: ## 기본 패키지 설치
