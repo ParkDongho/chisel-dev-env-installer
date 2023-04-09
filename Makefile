@@ -8,6 +8,9 @@ rhel-aws:       default          chisel chipyard astronvim
 
 aws-fpga-ami:
 	echo "not supported yet"
+	
+ubuntu-onpremise:
+	echo "not supported yet"
 
 ###################
 default: ## Install the default packages
