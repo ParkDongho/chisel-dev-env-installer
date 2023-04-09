@@ -49,8 +49,6 @@ astronvim: nvim rust
 
 
 ####################
-conda: conda-install conda-setup
-
 conda-install:
 	./code/conda/conda-rhel-8-latest.sh
 
