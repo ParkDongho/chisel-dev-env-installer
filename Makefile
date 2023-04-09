@@ -22,7 +22,7 @@ java11:
 coursier:
 	./code/coursier/coursier-rhel-8-latest.sh
 
-sbt:
+sbt: coursier
 	./code/sbt/sbt-rhel-8-latest.sh
 
 diagrammer:
