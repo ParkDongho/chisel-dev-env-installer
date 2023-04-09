@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 echo "================================="
 echo "RUN : gui-rhel-8.sh"
