@@ -14,7 +14,7 @@ default: ## 전체 설치
 
 
 ###################
-chisel: sbt diagrammer verilator
+chisel: coursier sbt diagrammer verilator
 
 java11:
 	./code/java/java11-rhel-8-latest.sh
