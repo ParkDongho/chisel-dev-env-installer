@@ -28,8 +28,8 @@ make rhel-onpremise
 > Xilinx [FPGA Developer AMI](https://aws.amazon.com/marketplace/pp/prodview-gimv3gqbpe57k) : CentOS 7.5
 
 ## Ubuntu
-| Versions |   Chisel   |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
-|:--------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-|  22.xx   | not tested | not tested | not tested | not tested | not tested |
-|  20.xx   | not tested | not tested | not tested | not tested | not tested |
-|  18.xx   | not tested | not tested | not tested | not tested | not tested |
+| Versions |   Chisel      |  Chipyard  |  FireSim   |    Nvim    | AstroNVIM  |
+|:--------:|:-------------:|:----------:|:----------:|:----------:|:----------:|
+|  22.xx   | not supported | not supported | not supported | not supported | not supported |
+|  20.xx   | not supported | not supported | not supported | not supported | not supported |
+|  18.xx   | not supported | not supported | not supported | not supported | not supported |
