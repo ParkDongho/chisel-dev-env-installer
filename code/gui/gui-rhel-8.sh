@@ -1,3 +1,9 @@
+
+
+echo "================================="
+echo "RUN : gui-rhel-8.sh"
+echo "================================="
+
 sudo yum update grub2 -y
 sudo yum -y install epel-release
     
@@ -24,3 +30,7 @@ sudo firewall-cmd --reload
 
 sudo systemctl start xrdp
 sudo systemctl enable xrdp
+
+echo "================================="
+echo "EXIT : gui-rhel-8.sh"
+echo "================================="
