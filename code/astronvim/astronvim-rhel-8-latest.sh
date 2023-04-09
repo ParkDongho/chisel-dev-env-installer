@@ -4,6 +4,7 @@ echo "RUN : astronvim-rhel-8-latest.sh"
 echo "================================"
 
 source "$HOME/.cargo/env"
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 # ASTRONVIM Prerequisite
 # Tree sitter cli
