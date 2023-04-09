@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "================================="
 echo "RUN : diagrammer-rhel-8-latest.sh"
 echo "================================="
