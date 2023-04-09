@@ -1,3 +1,7 @@
+echo "================================"
+echo "RUN : xrdp.sh"
+echo "================================"
+
 sudo yum -y install xorgxrdp
 sudo yum -y install xrdp tigervnc-server
 
@@ -6,3 +10,7 @@ sudo systemctl enable xrdp
 
 sudo firewall-cmd --permanent --add-port=3389/tcp
 sudo firewall-cmd --reload
+
+echo "================================"
+echo "EXIT : xrdp.sh"
+echo "================================"
