@@ -3,6 +3,7 @@ echo "=========================="
 echo "RUN : sbt-rhel-8-latest.sh"
 echo "=========================="
 
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 # Install sbt with cs setup
 cs setup
