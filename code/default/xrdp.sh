@@ -3,6 +3,8 @@ echo "================================"
 echo "RUN : xrdp.sh"
 echo "================================"
 
+sudo dnf install epel-release
+
 sudo yum -y install xorgxrdp
 sudo yum -y install xrdp tigervnc-server
 
