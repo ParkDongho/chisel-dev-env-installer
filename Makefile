@@ -2,7 +2,7 @@ help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 
-rhel-8: default ssh xrdp chisel chipyard astronvim
+rhel-8: default chisel chipyard astronvim
 
 aws-fpga-ami:
 	echo "not supported yet"
