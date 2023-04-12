@@ -1,7 +1,7 @@
 # Install dependency
-git clone https://github.com/llvm/llvm-project.git
-mkdir llvm-project/build
-cd llvm-project/build
+git clone https://github.com/llvm/llvm-project.git ~/dev/llvm-project
+mkdir ~/dev/llvm-project/build
+cd ~/devllvm-project/build
 cmake -G Ninja ../llvm \
    -DLLVM_ENABLE_PROJECTS=mlir \
    -DLLVM_BUILD_EXAMPLES=ON \
