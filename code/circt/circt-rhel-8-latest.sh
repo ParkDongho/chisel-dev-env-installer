@@ -20,7 +20,6 @@ cd llvm
 git fetch --unshallow
 
 #LLVM/MLIR 구축 및 테스트
-
 cd ~/dev/circt
 mkdir llvm/build
 cd llvm/build
