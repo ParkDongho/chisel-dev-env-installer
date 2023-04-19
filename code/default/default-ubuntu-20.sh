@@ -5,7 +5,7 @@ echo "================================"
 
 sudo apt-get -y install net-tools vim make openssh-server \
   zsh firewalld gcc git perl python3 make autoconf flex bison numactl wget \
-  libncurses5 libtinfo5 libncurses5-dev libncursesw5-dev
+  libncurses5 libtinfo5 libncurses5-dev libncursesw5-dev curl cargo
 
 # sudo apt-get -y openssl-devel bzip2-devel libffi-devel zlib-devel ncurses-compat-libs sqlite-devel
 
