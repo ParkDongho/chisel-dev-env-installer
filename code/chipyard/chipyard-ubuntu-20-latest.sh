@@ -28,9 +28,9 @@ conda install -n base conda-lock
 conda activate base
 
 # Chipyard
-mkdir ~/dev 
-git clone https://github.com/ucb-bar/chipyard.git ~/dev/chipyard
-cd ~/dev/chipyard
+mkdir ~/tools/chipyard/1.9.0/
+git clone https://github.com/ucb-bar/chipyard.git ~/tools/chipyard/1.9.0
+cd ~/tools/chipyard/1.9.0/
 git checkout 1.9.0
 ./build-setup.sh riscv-tools
 
