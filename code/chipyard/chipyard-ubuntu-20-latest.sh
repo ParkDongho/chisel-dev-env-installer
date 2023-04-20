@@ -32,7 +32,7 @@ mkdir ~/tools/chipyard/1.9.0/
 git clone https://github.com/ucb-bar/chipyard.git ~/tools/chipyard/1.9.0
 cd ~/tools/chipyard/1.9.0/
 git checkout 1.9.0
-./build-setup.sh riscv-tools
+./build-setup.sh riscv-tools -s 9
 
 echo "================================"
 echo "EXIT : chipyard-ubuntu-20-latest.sh"
