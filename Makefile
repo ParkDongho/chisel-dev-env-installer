@@ -19,30 +19,30 @@ default: ## Install the default packages
 chisel: coursier sbt diagrammer verilator
 
 java11:
-	./code/java/java11-$(NAME)-$(OSVER)-latest.sh
+	./code/java/java11-$(OSNAME)-$(OSVER)-latest.sh
 
 coursier:
 	./code/coursier/coursier-$(OSNAME)-$(OSVER)-latest.sh
 
 sbt: coursier
-	./code/sbt/sbt-$(NAME)-$(OSVER)-latest.sh
+	./code/sbt/sbt-$(OSNAME)-$(OSVER)-latest.sh
 
 diagrammer:
-	./code/diagrammer/diagrammer-$(NAME)-$(OSVER)-latest.sh
+	./code/diagrammer/diagrammer-$(OSNAME)-$(OSVER)-latest.sh
 
 verilator:
-	./code/verilator/verilator-$(NAME)-$(OSVER)-latest.sh
+	./code/verilator/verilator-$(OSNAME)-$(OSVER)-latest.sh
 
 ####################
 
 nvim: ## Install neovim
-	./code/nvim/nvim-$(NAME)-$(OSVER)-latest.sh
+	./code/nvim/nvim-$(OSNAME)-$(OSVER)-latest.sh
 
 rust: ## Install rust
-	./code/rust/rust-$(NAME)-$(OSVER)-latest.sh
+	./code/rust/rust-$(OSNAME)-$(OSVER)-latest.sh
 
 astronvim: nvim rust ## Install AstroNvim
-	./code/astronvim/astronvim-$(NAME)-$(OSVER)-latest.sh
+	./code/astronvim/astronvim-$(OSNAME)-$(OSVER)-latest.sh
 	
 
 
