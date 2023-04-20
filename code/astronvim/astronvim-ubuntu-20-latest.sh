@@ -3,7 +3,7 @@ echo "==================================="
 echo "RUN : astronvim-ubuntu-20-latest.sh"
 echo "==================================="
 
-source "~/.cargo/env"
+source "~/.cargo/bin"
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 # ASTRONVIM Prerequisite
