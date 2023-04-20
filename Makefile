@@ -16,7 +16,7 @@ default: ## Install the default packages
 	./code/default/default-$(OSNAME)-$(OSVER).sh
 
 ###################
-chisel: coursier sbt diagrammer verilator
+chisel: java11 coursier sbt diagrammer verilator
 
 java11:
 	./code/java/java11-$(OSNAME)-$(OSVER)-latest.sh
