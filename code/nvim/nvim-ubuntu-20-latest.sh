@@ -7,7 +7,7 @@ sudo apt-get remove neovim -y
 sudo apt autoremove
 
 # install nvim 0.8.x
-sudo snap install --beta nvim --classic -y
+sudo snap install --beta nvim --classic
  
 # install nvim 0.7.x
 # sudo add-apt-repository ppa:neovim-ppa/stable
