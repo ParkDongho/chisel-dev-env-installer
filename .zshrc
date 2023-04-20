@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 ############################
 
 # RustUP
-source $HOME/.cargo/bin
+export PATH="$PATH:$HOME/.cargo/bin"
 
  # >>> conda initialize >>>
  # !! Contents within this block are managed by 'conda init' !!
