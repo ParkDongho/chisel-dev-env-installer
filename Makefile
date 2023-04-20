@@ -41,7 +41,7 @@ nvim: ## Install neovim
 rust: ## Install rust
 	./code/rust/rust-$(OSNAME)-$(OSVER)-latest.sh
 
-astronvim: nvim rust ## Install AstroNvim
+astronvim: nvim ## Install AstroNvim
 	./code/astronvim/astronvim-$(OSNAME)-$(OSVER)-latest.sh
 	
 
