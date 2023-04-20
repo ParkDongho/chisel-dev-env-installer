@@ -107,6 +107,10 @@ source $ZSH/oh-my-zsh.sh
 # RustUP
 export PATH="$PATH:$HOME/.cargo/bin"
 
+# Xilinx Tools
+source /tools/Xilinx/Vivado/2022.2/settings64.sh
+# source /tools/Xilinx/Vitis/2022.2/settings64.sh
+
  # >>> conda initialize >>>
  # !! Contents within this block are managed by 'conda init' !!
  __conda_setup="$('$HOME/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -126,9 +130,11 @@ export PATH="$PATH:$HOME/.cargo/bin"
  fi
  # <<< conda initialize <<<
 
-# Xilinx Tools
-source /tools/Xilinx/Vivado/2022.2/settings64.sh
-# source /tools/Xilinx/Vitis/2022.2/settings64.sh
+
+
+
+
+
 
 # Python
 # alias python3="/usr/local/bin/python3.10"
