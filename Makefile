@@ -49,13 +49,13 @@ astronvim: nvim rust ## Install AstroNvim
 
 ####################
 conda-install: ## Install conda
-	./code/conda/conda-$(NAME)-$(OSVER)-latest.sh
+	./code/conda/conda-$(OSNAME)-$(OSVER)-latest.sh
 
 conda-setup: conda-install ## Setup conda
-	./code/conda/conda-setup-$(NAME)-$(OSVER)-latest.sh
+	./code/conda/conda-setup-$(OSNAME)-$(OSVER)-latest.sh
 
 chipyard: conda-install conda-setup verilator ## Install Chipyard
-	./code/chipyard/chipyard-$(NAME)-$(OSVER)-latest.sh
+	./code/chipyard/chipyard-$(OSNAME)-$(OSVER)-latest.sh
 	
 	
 ###################
