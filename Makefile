@@ -1,61 +1,61 @@
+OSNAME = ubuntu
+OSVER = 20
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-
 rhel-8: default chisel chipyard astronvim
 
-aws-fpga-ami:
+aws-fpga-ami: default
 	echo "not supported yet"
 	
-ubuntu-onpremise:
-	echo "not supported yet"
+ubuntu-onpremise: default
 
 ###################
 default: ## Install the default packages
-	./code/default/default-rhel-8.sh
-
+	./code/default/default-$(OSNAME)-$(OSVER).sh
 
 ###################
 chisel: coursier sbt diagrammer verilator
 
 java11:
-	./code/java/java11-rhel-8-latest.sh
+	./code/java/java11-$(NAME)-$(OSVER)-latest.sh
 
 coursier:
-	./code/coursier/coursier-rhel-8-latest.sh
+	./code/coursier/coursier-$(OSNAME)-$(OSVER)-latest.sh
 
 sbt: coursier
-	./code/sbt/sbt-rhel-8-latest.sh
+	./code/sbt/sbt-$(NAME)-$(OSVER)-latest.sh
 
 diagrammer:
-	./code/diagrammer/diagrammer-rhel-8-latest.sh
+	./code/diagrammer/diagrammer-$(NAME)-$(OSVER)-latest.sh
 
 verilator:
-	./code/verilator/verilator-rhel-8-latest.sh
+	./code/verilator/verilator-$(NAME)-$(OSVER)-latest.sh
 
 ####################
 
 nvim: ## Install neovim
-	./code/nvim/nvim-rhel-8-latest.sh
+	./code/nvim/nvim-$(NAME)-$(OSVER)-latest.sh
 
 rust: ## Install rust
-	./code/rust/rust-rhel-8-latest.sh
+	./code/rust/rust-$(NAME)-$(OSVER)-latest.sh
 
 astronvim: nvim rust ## Install AstroNvim
-	./code/astronvim/astronvim-rhel-8-latest.sh
+	./code/astronvim/astronvim-$(NAME)-$(OSVER)-latest.sh
 	
 
 
 
 ####################
 conda-install: ## Install conda
-	./code/conda/conda-rhel-8-latest.sh
+	./code/conda/conda-$(NAME)-$(OSVER)-latest.sh
 
 conda-setup: conda-install ## Setup conda
-	./code/conda/conda-setup-rhel-8-latest.sh
+	./code/conda/conda-setup-$(NAME)-$(OSVER)-latest.sh
 
 chipyard: conda-install conda-setup verilator ## Install Chipyard
-	./code/chipyard/chipyard-rhel-8-latest.sh
+	./code/chipyard/chipyard-$(NAME)-$(OSVER)-latest.sh
 	
 	
 ###################
