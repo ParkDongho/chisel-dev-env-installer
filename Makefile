@@ -9,7 +9,7 @@ rhel-8: default chisel chipyard astronvim
 aws-fpga-ami: default
 	echo "not supported yet"
 	
-ubuntu-onpremise: default
+ubuntu-onpremise: default chisel chipyard astronvim
 
 ###################
 default: ## Install the default packages
