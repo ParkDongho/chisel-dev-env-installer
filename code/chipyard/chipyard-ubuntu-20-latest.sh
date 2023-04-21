@@ -3,6 +3,9 @@ echo "==============================="
 echo "RUN : chipyard-ubuntu-20-latest.sh"
 echo "==============================="
 
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('$HOME/mambaforge/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
