@@ -1,10 +1,9 @@
 #!/bin/sh
+source ../path/bashrc-ubuntu-20.sh
+
 echo "==================================="
 echo "RUN : astronvim-ubuntu-20-latest.sh"
 echo "==================================="
-
-export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 # ASTRONVIM Prerequisite
 # Tree sitter cli
