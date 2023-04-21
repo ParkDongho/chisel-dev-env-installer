@@ -16,7 +16,7 @@ default: ## Install the default packages
 	./code/default/default-$(OSNAME)-$(OSVER).sh
 
 ###################
-chisel: java11 coursier sbt diagrammer verilator
+chisel: java11 coursier sbt diagrammer verilator firtool
 
 java11:
 	./code/java/java11-$(OSNAME)-$(OSVER)-latest.sh
@@ -57,7 +57,7 @@ conda-install: ## Install conda
 conda-setup: conda-install ## Setup conda
 	./code/conda/conda-setup-$(OSNAME)-$(OSVER)-latest.sh
 
-chipyard: conda-install conda-setup verilator ## Install Chipyard
+chipyard: conda-install conda-setup verilator firtool ## Install Chipyard
 	./code/chipyard/chipyard-$(OSNAME)-$(OSVER)-latest.sh
 	
 	
