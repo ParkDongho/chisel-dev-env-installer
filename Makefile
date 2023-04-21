@@ -30,6 +30,9 @@ sbt: coursier
 diagrammer:
 	./code/diagrammer/diagrammer-$(OSNAME)-$(OSVER)-latest.sh
 
+firtool:
+	./code/firtool/firtool-$(OSNAME)-$(OSVER)-latest.sh
+
 verilator:
 	./code/verilator/verilator-$(OSNAME)-$(OSVER)-latest.sh
 
