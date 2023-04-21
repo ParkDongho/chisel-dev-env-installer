@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "=================================="
-echo "RUN : conda-setup-ubuntu-20-latest.sh"
-echo "=================================="
-
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
@@ -25,6 +21,10 @@ if [ -f "$HOME/mambaforge/etc/profile.d/mamba.sh" ]; then
    . "$HOME/mambaforge/etc/profile.d/mamba.sh"
 fi
 # <<< conda initialize <<<
+
+echo "=================================="
+echo "RUN : conda-setup-ubuntu-20-latest.sh"
+echo "=================================="
 
 conda config --set auto_activate_base false
 
