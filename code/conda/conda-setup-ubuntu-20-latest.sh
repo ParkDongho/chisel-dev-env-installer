@@ -4,8 +4,8 @@ echo "=================================="
 echo "RUN : conda-setup-ubuntu-20-latest.sh"
 echo "=================================="
 
-# RustUP
 export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
