@@ -1,4 +1,6 @@
 #!/bin/sh
+source ../path/bashrc-ubuntu-20.sh
+
 echo "==============================="
 echo "RUN : coursier-ubuntu-20-latest.sh"
 echo "==============================="
