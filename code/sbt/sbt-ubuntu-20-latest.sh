@@ -1,5 +1,5 @@
 #!/bin/sh
-source ../path/bashrc-ubuntu-20.sh
+source code/path/bashrc-ubuntu-20.sh
 
 echo "=========================="
 echo "RUN : sbt-ubuntu-20-latest.sh"
