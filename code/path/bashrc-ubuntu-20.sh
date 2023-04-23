@@ -22,5 +22,5 @@ fi
 
 # Xilinx Tools
 export XILINX_DIR="$HOME/tools/Xilinx"
-export VIVAO_DIR="$XILINX_DIR/VIVADO/2022.2"
+export VIVADO_DIR="$XILINX_DIR/Vivado/2022.2"
 export VITIS_DIR="$XILINX_DIR/Vitis/2022.2"
