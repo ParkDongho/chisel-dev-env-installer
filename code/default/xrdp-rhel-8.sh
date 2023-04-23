@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "================================"
-echo "RUN : xrdp.sh"
+echo "RUN : xrdp-rhel-8.sh"
 echo "================================"
 
 sudo dnf install epel-release
@@ -15,5 +15,5 @@ sudo firewall-cmd --permanent --add-port=3389/tcp
 sudo firewall-cmd --reload
 
 echo "================================"
-echo "EXIT : xrdp.sh"
+echo "EXIT : xrdp-rhel-8.sh"
 echo "================================"
