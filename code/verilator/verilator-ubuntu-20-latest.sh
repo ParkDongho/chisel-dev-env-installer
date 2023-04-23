@@ -1,5 +1,5 @@
 #!/bin/sh
-source ../path/bashrc-ubuntu-20.sh
+source code/path/bashrc-ubuntu-20.sh
 
 echo "================================"
 echo "RUN : verilator-rhel-8-latest.sh"
